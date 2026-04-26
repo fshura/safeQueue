@@ -1,4 +1,4 @@
-#ifindef SAFE_QUEUE_H
+#ifndef SAFE_QUEUE_H
 #define SAFE_QUEUE_H
 
 #include <iostream>
