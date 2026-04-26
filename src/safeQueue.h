@@ -12,7 +12,7 @@
 template <typename T>
 class safeQueue {
 	std::queue<T> queue;
-	std::mutex mtx;
+	mutable std::mutex mtx;
 	std::condition_variable cv;
 public:
 	void push(const T& value){
